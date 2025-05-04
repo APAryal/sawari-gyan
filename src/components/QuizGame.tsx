@@ -76,7 +76,7 @@ export default function QuizGame({ teams, onGameComplete }: QuizGameProps) {
   return (
     <div className="max-w-4xl mx-auto p-6">
       <div className="mb-6 flex justify-between items-center">
-        <div className="text-xl font-semibold text-gray-800">
+        <div className="text-4xl font-semibold text-gray-900">
           Team: {updatedTeams[activeTeam].name}
         </div>
         <div className="flex items-center gap-2">

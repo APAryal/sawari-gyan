@@ -6,7 +6,7 @@ export const questions: Question[] = [
       id: '1',
       text: '1) Which letter is used on the number plate of government motorcycles?',
       options: ['a) ब', 'b) प', 'c) झ', 'd) क'],
-      correctAnswer: 3
+      correctAnswer: 0
      
   },
  
@@ -66,9 +66,9 @@ export const questions: Question[] = [
   },
   {
     id: '10',
-    text: '10) सवारी चालक अनुमतिपत्र लिन न्यूनतम उमेर कति हो?',
-    options: ['a) १६ वर्ष', 'b) १८ वर्ष', 'c) २० वर्ष', 'd) २५ वर्ष'],
-    correctAnswer: 1
+    text: '10) नेपालमा सबैभन्दा बढी दर्ता भएको सवारी साधन कुन हो?',
+    options: ['a) कार', 'b) १८ बस', 'c) मोटरसाइकल', 'd)  ई–रिक्सा'],
+    correctAnswer: 2
   },
   {
     id: '11',
@@ -138,7 +138,7 @@ export const questions: Question[] = [
   {
     id: '21',
     text: '21) सहरी इलाकामा अधिकतम गति कति हुनुपर्छ?',
-    options: ['a) ३० किमी/घंटा', 'b) ५० किमी/घंटा', 'c) ७० किमी/घंटा', 'd) १०० किमी/घंटा'],
+    options: ['a) ४० किमी/घंटा', 'b) ५० किमी/घंटा', 'c) ७० किमी/घंटा', 'd) १०० किमी/घंटा'],
     correctAnswer: 0
   },
   {
@@ -197,9 +197,9 @@ export const questions: Question[] = [
   },
   {
     id: '30',
-    text: '30) What type of vehicle does a green number plate represent?',
-    options: ['a) Tourist vehicle', 'b) Public vehicle', 'c) Institutional vehicle', 'd) Diplomatic vehicle'],
-    correctAnswer: 0
+    text: '30) विद्युतीय सवारीमध्येको कुन सवारी साधन विद्युतीय (इलेक्ट्रिक) होइन?',
+    options: ['a) ई–रिक्सा', 'b)  ट्रली बस', 'c) ग्यास टेम्पो', 'd) मेट्रो सबवे'],
+    correctAnswer: 2
   },
   {
     id: '31',
@@ -221,9 +221,9 @@ export const questions: Question[] = [
   },
   {
     id: '34',
-    text: '34) मोटरसाइकलको अधिकतम गति कहाँ राख्नुपर्छ?',
-    options: ['a) सहरी इलाका', 'b) खाली सडक', 'c) अस्पताल नजिक', 'd) कुनै पनि'],
-    correctAnswer: 0
+    text: '34) रातको समयमा गाडी पार्क गर्दा बालिने लाइट कुन हो?',
+    options: ['a) हेडलाइट', 'b) साइड लाइट', 'c) पार्किङ लाइट', 'd) इमर्जेन्सी लाइट'],
+    correctAnswer: 2
   },
   {
     id: '35',

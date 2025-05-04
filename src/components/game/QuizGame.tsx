@@ -347,7 +347,7 @@ export default function QuizGame({ teams, onGameComplete }: QuizGameProps) {
                 />
               )}
               {phase !== 'massRound' && (
-                <div className="text-xl font-semibold text-gray-800">
+                <div className="pl-4 text-xl font-semibold text-gray-800">
                   Team: {updatedTeams[activeTeam].name}
                 </div>
               )}
